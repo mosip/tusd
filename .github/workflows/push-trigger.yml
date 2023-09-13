@@ -8,11 +8,8 @@ on:
   push:
     branches:
       - '!release-branch'
-      - release-1*
-      - develop
-      - 1.*
-      - master
-      - MOSIP*
+      - '*'
+      
   workflow_dispatch:
     inputs:
       message:
